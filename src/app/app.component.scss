@@ -1,0 +1,25 @@
+.date-container{
+    .days-list{
+        padding: 5px 0;
+        display: flex;
+        gap: 8px;
+        .day{
+            font-size: 15px;
+            border-radius: 8px;
+            color: #000;
+            background-color: #d0fe8c;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            gap: 4px;
+            font-family: 'Courier New', Courier, monospace;
+            & > *{
+
+                padding: 5px;
+                &:first-child{
+                    border-bottom: 1px solid #000;
+                }
+            }
+        }
+    }
+}
